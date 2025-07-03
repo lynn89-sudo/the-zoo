@@ -12,25 +12,34 @@
             position: absolute;
             width: 100%;
             background-color: rgb(44, 95, 44);
-            animation: slideYSWS 5s ease-in-out infinite;
+            animation: slideYSWS 10s infinite linear
         }
-
-        @keyframes slideYSWS {
-            0% {
-                transform: translateX(100%);
-            }
-            40% {
-                transform: translateX(0);
-            }
-            80% {
-                transform: translateX(-100%);
-            }
-            90% {
-                transform: translateX(-100%);
-            }
-            100% {
-                transform: translateX(100%);
-            }
+        
+    }
+    @keyframes slideYSWS {
+        0% {
+            transform: translateX(100%);
+        }
+        30%{
+            transform: translateX(100%);
+        }
+        40% {
+            transform: translateX(0);
+        }
+        70% {
+            transform: translateX(0);
+        }
+        80% {
+            transform: translateX(-100%);
+        }
+        81% {
+            transform: translateX(-100%);
+        }
+        82% {
+           transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(100%);
         }
     }
 </style>
