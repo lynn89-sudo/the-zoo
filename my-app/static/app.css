@@ -56,6 +56,7 @@ h2 {
     left: 0;
     right: 0;
     height: 105px;
+    z-index: 1000;
 
     background-color: rgba(10, 59, 10, 0.89);
     #logo {

@@ -3,22 +3,28 @@
         position: relative;
         text-align: center;
         width: 100%;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
 
         #banner1 {
             position: absolute;
+            background-color: rgb(4, 117, 4);
             width: 100%;
         }
         #banner2 {
             position: absolute;
             width: 100%;
             background-color: rgb(44, 95, 44);
-            animation: slideYSWS 10s infinite linear
+            animation: slideYSWS 15s infinite ease-in-out;
         }
         
     }
     @keyframes slideYSWS {
         0% {
             transform: translateX(100%);
+            opacity: 100;
         }
         30%{
             transform: translateX(100%);
@@ -26,16 +32,18 @@
         40% {
             transform: translateX(0);
         }
-        70% {
+        75% {
             transform: translateX(0);
         }
-        80% {
+        85% {
             transform: translateX(-100%);
+            opacity: 100;
         }
-        81% {
+        86% {
             transform: translateX(-100%);
+            opacity: 0;
         }
-        82% {
+        87% {
            transform: translateX(100%);
         }
         100% {
@@ -53,6 +61,7 @@
         <br>
         <h2>You ship</h2>
         <h1>A SVELTE SITE</h1>
+        <h3>(Must be animal themed)</h3>
     </div>
     <div id="banner2">
         <br>
