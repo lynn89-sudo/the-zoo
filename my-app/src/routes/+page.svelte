@@ -1,7 +1,9 @@
 <style>
     #ysws {
+        position: relative;
         text-align: center;
         width: 100%;
+        height: 300px;
         user-select: none;
         -webkit-user-select: none;
         -moz-user-select: none;
@@ -78,7 +80,7 @@
         <br><br>
     </div>
 </div>
-<div style="height: 350px;"></div>
+<br>
 <div id="svelte">
     <h2>What is Svelte?</h2>
     <img src="favicon.svg" alt="Svelte Logo" width="100px" height="100px"/>
