@@ -10,13 +10,15 @@
 
         #banner1 {
             position: absolute;
-            background-color: rgb(4, 117, 4);
+            padding: 10px;
+            background-color: rgb(37, 68, 37);
             width: 100%;
         }
         #banner2 {
             position: absolute;
+            padding: 10px;
             width: 100%;
-            background-color: rgb(44, 95, 44);
+            background-color: rgb(70, 104, 70);
             animation: slideYSWS 15s infinite ease-in-out;
         }
         
@@ -26,10 +28,10 @@
             transform: translateX(100%);
             opacity: 100;
         }
-        30%{
+        20%{
             transform: translateX(100%);
         }
-        40% {
+        30% {
             transform: translateX(0);
         }
         75% {
