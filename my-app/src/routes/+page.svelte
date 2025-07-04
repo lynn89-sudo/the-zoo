@@ -1,22 +1,20 @@
 <style>
     #ysws {
-        position: relative;
         text-align: center;
         width: 100%;
         user-select: none;
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
+        overflow-x: hidden;
 
         #banner1 {
             position: absolute;
-            padding: 10px;
             background-color: rgb(37, 68, 37);
             width: 100%;
         }
         #banner2 {
             position: absolute;
-            padding: 10px;
             width: 100%;
             background-color: rgb(70, 104, 70);
             animation: slideYSWS 15s infinite ease-in-out;
@@ -26,12 +24,20 @@
     @keyframes slideYSWS {
         0% {
             transform: translateX(100%);
+            opacity: 0;
+        }
+        28% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        29% {
+            transform: translateX(100%);
             opacity: 100;
         }
-        20%{
+        30% {
             transform: translateX(100%);
         }
-        30% {
+        40% {
             transform: translateX(0);
         }
         75% {
@@ -50,6 +56,7 @@
         }
         100% {
             transform: translateX(100%);
+            opacity: 0;
         }
     }
 </style>
@@ -60,15 +67,22 @@
 <div id="spacing"></div>
 <div id="ysws">
     <div id="banner1">
-        <br>
+        <br><br>
         <h2>You ship</h2>
         <h1>A SVELTE SITE</h1>
-        <h3>(Must be animal themed)</h3>
+        <br><br>
     </div>
     <div id="banner2">
-        <br>
+        <br><br>
         <h2>We ship</h2>
         <h1>A FRIDGE MAGNET</h1>
-        <h3>(And some stickers)</h3>
+        <br><br>
     </div>
+</div>
+<div style="height: 350px;"></div>
+<div id="svelte">
+    <h2>What is Svelte?</h2>
+    <img src="favicon.svg" alt="Svelte Logo" width="100px" height="100px"/>
+    <br>
+    <h3>Svelte is a UI framework that uses a compiler to let you write breathtakingly concise components that do minimal work in the browser, using languages you already know — HTML, CSS and JavaScript. It’s a love letter to web development.</h3>
 </div>
