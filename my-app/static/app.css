@@ -67,6 +67,16 @@ h2 {
     }
 }
 
+h3 {
+    padding: 10px !important;
+}
+@media (min-width: 1000px) {
+    h3 {
+        font-size: 20px;
+        padding: 20px;
+    }
+}
+
 #navbar {
     position: fixed;
     top: 0;
@@ -120,4 +130,11 @@ h2 {
     #spacing {
         height: 70px;
     }
+}
+
+button {
+    color: rgb(109, 121, 109);
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
 }

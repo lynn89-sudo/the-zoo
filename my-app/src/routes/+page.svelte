@@ -84,6 +84,10 @@
 <div id="svelte">
     <h2>What is Svelte?</h2>
     <img src="favicon.svg" alt="Svelte Logo" width="100px" height="100px"/>
+    <br><br>
+    <h3>Svelte is a UI framework that uses a compiler to let you write concise components that do minimal work in the browser, using language syntax you probably already know: HTML, CSS and JavaScript (or Typescript).</h3>
+    <h3>It is a great alternative to React, Vue, and other frameworks.</h3>
     <br>
-    <h3>Svelte is a UI framework that uses a compiler to let you write breathtakingly concise components that do minimal work in the browser, using languages you already know — HTML, CSS and JavaScript. It’s a love letter to web development.</h3>
+    <a href="https://svelte.dev"><button><h2>Svelte Website</h2></button></a>
+    <br><br>
 </div>
