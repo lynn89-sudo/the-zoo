@@ -102,9 +102,18 @@
         }
         h1 span:first-child {
             color: rgb(150, 201, 109);
+            transition: color 0.3s ease-in-out;
+        }
+        h1 span:first-child:hover {
+            color: rgb(137, 180, 102);
         }
         h1 span:last-child {
             color: rgb(187, 228, 187);
+            transition: color 0.3s ease-in-out;
+
+        }
+        h1 span:last-child:hover {
+            color: rgb(142, 175, 142);
         }
     }
 </style>
@@ -112,19 +121,19 @@
 <Navbar />
 <div id="ysws">
     <div id="banner1">
-        <br><br><br>
+        <br><br>
         <h2>You ship</h2>
         <h1>A SVELTE SITE</h1>
         <br><br>
     </div>
     <div id="banner2">
-        <br><br><br>
+        <br><br>
         <h2>We ship</h2>
         <h1>A FRIDGE MAGNET</h1>
         <br><br>
     </div>
 </div>
-<br><br>
+<br>
 <div id="svelte">
     <h2>What is Svelte?</h2>
     <img src="favicon.svg" alt="Svelte Logo" width="100px" height="100px"/>
@@ -140,7 +149,7 @@
 <div id="about">
     <br><br>
     <h2>What is The Zoo?</h2>
-    <h3>The Zoo is a Hackclub "You Ship We Ship" (YSWS) Program</h3>
+    <h3>The Zoo is a Hackclub You Ship We Ship (YSWS) Program</h3>
     <br>
     <p>(Click the buttons)</p>
     <h1><span><a on:click|preventDefault = {() => {about(1)}} role="button" tabindex="0">YS</a></span><span><a on:click|preventDefault = {() => {about(2)}} role="button" tabindex="0">WS</a></span></h1>

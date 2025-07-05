@@ -90,7 +90,7 @@ h3 {
     height: 105px;
     z-index: 1000;
 
-    background-color: rgba(40, 143, 40, 0.89);
+    background-color: rgba(40, 143, 40, 0.98);
     #logo {
         margin: 0 auto;
         display: block;
@@ -143,4 +143,7 @@ button {
     padding: 10px;
     cursor: pointer;
     background-color: white;
+}
+button:hover {
+    background-color: rgb(204, 245, 204);
 }
