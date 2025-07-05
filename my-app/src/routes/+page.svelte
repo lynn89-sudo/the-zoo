@@ -1,21 +1,25 @@
 <script>
+    import Navbar from "$lib/navbar.svelte"
     let aboutLabel = $state("");
     function about(num) {
         if (num === 1) {
            aboutLabel = `<h3>
                 You make a static multi-page website with Svelte, 
-                and host it on Github Pages (or another deployment method).<br>
-                Your site must be themed around an animal, real or imaginary, and include both a panel with information/facts and a page with an interactive version of the animal.
-                <br>
-                Additional prizes will be awarded for polished projects on endangered animals or species (real).
+                and host it on Github Pages (or another deployment method).<br><br>
+                Your site must be themed around an animal, real or imaginary,
+                 and include both a panel with information/facts and a page with
+                  an interactive version of the animal.
+                <br><br>
+                Additional prizes will be awarded for polished projects on
+                 endangered animals or species (real).
            </h3>`;
         } else if (num === 2) {
             aboutLabel = `<h3>
                 We ship you a special fridge magnet that you can put
-                on your fridge or any other magnetic surface.<br>
+                on your fridge or any other magnetic surface.<br><br>
                 A special stickersheet will be awarded to polished projects
                  about endangered animals or species (real).
-                <br>
+                <br><br>
                 Your project will also be added to the Hack Club Zoo, an online 
                 gallery of all the projects made in this program.
            </h3>`;
@@ -105,25 +109,22 @@
     }
 </style>
 
-<div id="navbar">
-    <img id = "logo" src="logo.png" alt="Logo for The Zoo, a Hack Club You Ship We Ship program"/>
-</div>
-<div id="spacing"></div>
+<Navbar />
 <div id="ysws">
     <div id="banner1">
-        <br><br>
+        <br><br><br>
         <h2>You ship</h2>
         <h1>A SVELTE SITE</h1>
         <br><br>
     </div>
     <div id="banner2">
-        <br><br>
+        <br><br><br>
         <h2>We ship</h2>
         <h1>A FRIDGE MAGNET</h1>
         <br><br>
     </div>
 </div>
-<br>
+<br><br>
 <div id="svelte">
     <h2>What is Svelte?</h2>
     <img src="favicon.svg" alt="Svelte Logo" width="100px" height="100px"/>
