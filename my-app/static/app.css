@@ -77,8 +77,8 @@ h3 {
         margin-right: 220px;
     }
     h1, h2, p {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
     }
 }
 
@@ -90,7 +90,7 @@ h3 {
     height: 105px;
     z-index: 1000;
 
-    background-color: rgba(40, 143, 40, 0.98);
+    background-color: rgba(40, 143, 40, 0.985);
     #logo {
         margin: 0 auto;
         display: block;
@@ -138,12 +138,13 @@ h3 {
 }
 
 button {
-    color: rgb(4, 129, 4);
     border-radius: 30px;
     padding: 10px;
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(94, 114, 94);
+    color: white;
 }
 button:hover {
-    background-color: rgb(204, 245, 204);
+    color: rgb(4, 129, 4);
+    background-color: white;
 }

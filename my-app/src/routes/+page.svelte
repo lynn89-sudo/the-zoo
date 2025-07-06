@@ -1,9 +1,12 @@
 <script>
     import Navbar from "$lib/navbar.svelte"
     let aboutLabel = $state("");
+    let mode = $state("");
     function about(num) {
+        document.getElementById("clickDesc").innerHTML = "";
         if (num === 1) {
-           aboutLabel = `<h3>
+            mode = "YS";
+           aboutLabel = `<h3 class="YS">
                 You make a static multi-page website with Svelte, 
                 and host it on Github Pages (or another deployment method).<br><br>
                 Your site must be themed around an animal, real or imaginary,
@@ -14,13 +17,14 @@
                  endangered animals or species (real).
            </h3>`;
         } else if (num === 2) {
-            aboutLabel = `<h3>
+            mode = "WS";
+            aboutLabel = `<h3 class="WS">
                 We ship you a special fridge magnet that you can put
                 on your fridge or any other magnetic surface.<br><br>
                 A special stickersheet will be awarded to polished projects
                  about endangered animals or species (real).
                 <br><br>
-                Your project will also be added to the Hack Club Zoo, an online 
+                Additionally, your project will be added to the Hack Club Zoo, an online 
                 gallery of all the projects made in this program.
            </h3>`;
         }
@@ -96,25 +100,45 @@
 
     #about {
         background-color: rgb(6, 119, 85);
+        transition: background-color 0.5s ease-in-out;
         h1 {
-            font-size: 90px;
+            font-size: 100px;
             cursor: pointer;
         }
         h1 span:first-child {
-            color: rgb(150, 201, 109);
-            transition: color 0.3s ease-in-out;
+            color: rgb(168, 216, 129);
         }
         h1 span:first-child:hover {
-            color: rgb(137, 180, 102);
+            color: rgb(138, 189, 97);
         }
         h1 span:last-child {
             color: rgb(187, 228, 187);
-            transition: color 0.3s ease-in-out;
 
         }
         h1 span:last-child:hover {
-            color: rgb(142, 175, 142);
+            color: rgb(165, 202, 165);
         }
+    }
+    #about.YS {
+        background-color: rgb(95, 145, 55);
+    }
+    #about.WS {
+        background-color: rgb(100, 124, 100);
+    }
+    #requirements {
+        background-color: rgb(0, 179, 80);
+        div {
+            background-color: rgb(38, 119, 65);
+            padding: 10px;
+            margin-left: 15vw;
+            margin-right: 15vw;
+            margin-bottom: 20px;
+            border-radius: 15px;
+        }
+    }
+    #requirements h2 {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 </style>
 
@@ -146,13 +170,30 @@
     <br><br>
 </div>
 <br><br>
-<div id="about">
+<div id="about" class:WS={mode === "WS"} class:YS={mode === "YS"}>
     <br><br>
     <h2>What is The Zoo?</h2>
     <h3>The Zoo is a Hackclub You Ship We Ship (YSWS) Program</h3>
     <br>
-    <p>(Click the buttons)</p>
+    <p id="clickDesc">(Click the buttons)</p>
     <h1><span><a on:click|preventDefault = {() => {about(1)}} role="button" tabindex="0">YS</a></span><span><a on:click|preventDefault = {() => {about(2)}} role="button" tabindex="0">WS</a></span></h1>
     {@html aboutLabel}
     <br><br>
+</div>
+<div id="requirements">
+    <br><br>
+    <h2>What are the specific requirements for my Svelte Site?</h2>
+    <br>
+    <div>
+        <h3>Your site must be made in Svelte (duh) and static. It needs to have multiple pages.</h3>
+    </div>
+    <div>
+        <h3>Your site must be themed around an animal/species, real or imaginary.</h3>
+    </div>
+    <div>
+        <h3>Your site must contain at least three facts about your animal in a facts panel. A valid facts panel is cycleable and dynamic. Your facts panel must also unlock a button to the second page.</h3>
+    </div>
+    <div>
+        <h3>Your site's second page must contain an interactive version of your chosen animal/species. Your interactive animal must react to both an external factor (ie. random, time) and a user input (ie. mouse click)</h3>
+    </div>
 </div>
