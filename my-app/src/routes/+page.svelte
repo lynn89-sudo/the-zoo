@@ -5,11 +5,14 @@
     {#each [1,2,3,4,5] as n}
         <link rel="preload" href={`boba/bobaV${n}.png`} as="image" />
     {/each}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_drop_down_circle" />
 </svelte:head>
 <script>
     import Navbar from "$lib/navbar.svelte"
     import Banner from "$lib/banner.svelte"
     import { onMount } from "svelte";
+
+    let faq = $state(0);
 
     let width = $state(true);
     let select1 = $state("bobaD");
@@ -112,15 +115,20 @@
         background-color: rgb(7, 83, 77);
 
         img {
-            width: 50%;
+            width: 30%;
             height: auto;
             margin: 0 auto;
             display: block;
             transition: width 0.7s ease-in-out;
+
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-drag: none;
+            
         }
         img:hover {
             cursor: grab;
-            width: 53.5%;
+            width: 33.5%;
         }
     }
     @media (max-width: 750px) {
@@ -137,7 +145,74 @@
         padding-bottom: 30px;
         padding-left: 20px;
         padding-right: 20px;
-        background-color: rgb(127, 129, 8);
+        background-color: rgb(89, 92, 55);
+
+        img {
+            width: 50%;
+            padding-top: 20px;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+    @media (min-width: 750px) {
+        #example img {
+            width: 20%;
+        }
+    }
+
+
+    #faq {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgb(165, 123, 6);
+        
+        h1 span {
+            font-size: 50px;
+            background-color: rgb(116, 77, 5);
+            padding: 10px;
+            border-radius: 20px;
+        }
+        img {
+            width: 50%;
+        }
+
+        div {
+            background-color: rgb(88, 66, 5);
+            margin-left: 60px;
+            margin-right: 60px;
+            margin-bottom: 20px;
+            padding: 10px;
+
+            h2 {
+                margin-bottom: 5px;
+                margin-top: 10px;
+            }
+
+            a {
+                color: white;
+            }
+
+            button {
+                background-color: rgb(48, 41, 1);
+            }
+            button:hover {
+                background-color: rgb(131, 111, 1);
+            }
+
+            h3 {
+                display: none;
+            }
+            h3.on {
+                display: block
+            }
+        }
+    }
+    @media (min-width: 750px) {
+        #faq img {
+            width: 20%;
+        }
     }
 </style>
 <Navbar />
@@ -159,7 +234,8 @@
     <br>
     <h2><span style="background-color: rgb(100,100,60)">1 MYN = 1 USD</span></h2>
     <br><br>
-    <button onclick={ window.location.href = "mynts"}><h2>How do I earn mynts?</h2></button>
+    <button onclick={ window.location.href = "mynts" }><h2>How do I earn mynts?</h2></button>
+    <br><br>
 </div>
 <div id="svelte">
     <h2>What is Svelte?</h2>
@@ -183,6 +259,42 @@
 <div id="example">
     <h2>Can I see an example project?</h2>
     <h3>Yes! This is a mid/high level project example.</h3>
-    <button onclick = { window.location.href = `https://lynn89-sudo.github.io/red-panda` }><h2>Take me there!</h2></button>
+    <button onclick = { window.location.href = "https://lynn89-sudo.github.io/red-panda" }><h2>Take me there!</h2></button>
+    <br><br>
+    <h3>Future guide coming soon...</h3>
+    <br>
+    <img src="panda.png" alt = "Red anda eating"/>
+</div>
+<div id="faq">
+    <h1><span>FAQ</span></h1>
+    <br>
+    <h3>If it helped Ollie, it should help you too ^w^</h3>
+    <br>
+    <img src="octo.png" alt="ollie the octopus"/>
+    <br><br>
+    <div>
+        <h2>How many hours minimum do I need to work on my site?</h2>
+        <button onclick = { faq = 1 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <br><br>
+        <h3 class:on = { faq == 1 }>You need to work on your site for at least 5 hours to receive any mynts. All hours must be tracked on <a href="https://hackatime.hackclub.com">Hackatime</a>.</h3>
+    </div>
+    <div>
+        <h2>How many projects can I submit?</h2>
+        <button onclick = { faq = 2 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <br><br>
+        <h3 class:on = { faq == 2 }>You can submit as many projects as you want to The Zoo, but you cannot submit a new project till your previous (or first) project meets all the requirements, is shipped, and has 7+ hours (yes, at least 2 more than the minimum).</h3>
+    </div>
+    <div>
+        <h2>Are there limitations to what I can put on my site?</h2>
+        <button onclick = { faq = 3 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <br><br>
+        <h3 class:on = { faq == 3 }>For the most part, no! Any animal, real or imaginary, is valid for your project. No vulgar or innapropriate content is allowed in a submission; additionally, no depictions of any certain figure/person are allowed without their explicit permision. Follow the Hack Club Code of Conduct.</h3>
+    </div>
+    <div>
+        <h2>Are there special prizes?</h2>
+        <button onclick = { faq = 4 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <br><br>
+        <h3 class:on = { faq == 4 }>Yes (hopefully)! For those that submit polished (and I mean polished) projects on an endangered species/animal, and include a special page about that in their project will be eligible for a special sticker. One sticker per person, not project. You can see an example of this in the example project above.</h3>
+    </div>
 </div>
 
