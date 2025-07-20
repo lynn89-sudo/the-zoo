@@ -1,3 +1,11 @@
+<svelte:head>
+    {#each [1,2,3,4,5] as n}
+        <link rel="preload" href={`boba/bobaD${n}.png`} as="image" />
+    {/each}
+    {#each [1,2,3,4,5] as n}
+        <link rel="preload" href={`boba/bobaV${n}.png`} as="image" />
+    {/each}
+</svelte:head>
 <script>
     import Navbar from "$lib/navbar.svelte"
     import Banner from "$lib/banner.svelte"
@@ -61,6 +69,15 @@
             transform: translateY(0)
         }
     }
+
+    button {
+        background-color: rgb(128, 111, 16);
+        border: none;
+    }
+    button:hover {
+        color: white;
+        background-color: rgb(80, 69, 9);
+    }
 </style>
 <Navbar />
 <Banner />
@@ -77,8 +94,10 @@
 <div style="background-color: rgb(230, 177, 30); color: white; padding: 20px;">
     <br>
     <h2 style="font-size: 70px;">Mynts</h2>
-    <h3>are the currency you earn for your animals in the zoo</h3>
+    <h3>are the currency you earn for your animals in the zoo The better your submissions are, the more mynts you earn</h3>
     <br>
     <h2><span style="background-color: rgb(100,100,60)">1 MYN = 1 USD</span></h2>
+    <br><br>
+    <button onclick={ window.location.href = "mynts"}><h2>How do I earn mynts?</h2></button>
 </div>
-<br>
+
