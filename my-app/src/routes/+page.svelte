@@ -131,6 +131,14 @@
             width: 90%;
         }
     }
+
+    #example {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgb(127, 129, 8);
+    }
 </style>
 <Navbar />
 <Banner />
@@ -171,5 +179,10 @@
     <h4>(Last updated, July 25th)</h4>
     <br>
     <img src="whale.png" alt="Whale Plushie"/>
+</div>
+<div id="example">
+    <h2>Can I see an example project?</h2>
+    <h3>Yes! This is a mid/high level project example.</h3>
+    <button onclick = { window.location.href = `https://lynn89-sudo.github.io/red-panda` }><h2>Take me there!</h2></button>
 </div>
 
