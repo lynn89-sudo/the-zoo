@@ -9,15 +9,18 @@
         -moz-user-select: none;
         -ms-user-select: none;
         overflow-x: hidden;
+        overflow-y: hidden;
+
+        margin-bottom: 0;
     }
     @media (min-width: 750px) {
         #ysws {
-            height: 200px;
+            height: 150px;
         }
     }
     @media (max-width: 750px) {
         #ysws {
-            height: 140px;
+            height: 130px;
         }
         h1 {
             font-size: 20px !important;
