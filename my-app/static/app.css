@@ -32,6 +32,10 @@
   font-display: swap;
 }
 
+svg {
+    background: transparent !important;
+}
+
 html, body {
     overflow-x: hidden;
     max-width: 100vw;
