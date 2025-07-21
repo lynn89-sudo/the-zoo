@@ -34,5 +34,5 @@
         pets
     </span>
     <br><br>
-    <h4><a href="/fraud">Fraud Disclaimer</a> | <a href="/privacy">Privacy Policies</a></h4>
+    <h4><a href="{ base }/fraud">Fraud Disclaimer</a> | <a href="{ base }/privacy">Privacy Policies</a></h4>
 </div>

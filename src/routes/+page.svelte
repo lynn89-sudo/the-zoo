@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_drop_down_circle,pets" />
 </svelte:head>
 <script>
+    import { base } from '$app/paths';
     import Navbar from "$lib/navbar.svelte"
     import Banner from "$lib/banner.svelte"
     import Footer from "$lib/footer.svelte"
@@ -272,7 +273,7 @@
     <br>
     <h2><span style="background-color: rgb(100,100,60)">1 MYN = 1 USD</span></h2>
     <br><br>
-    <button onclick={ window.location.href = "mynts" }><h2>How do I earn mynts?</h2></button>
+    <button onclick={ window.location.href = "/the-zoo/mynts" }><h2>How do I earn mynts?</h2></button>
     <br><br>
 </div>
 <div id="svelte">
