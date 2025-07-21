@@ -114,9 +114,6 @@
         padding-left: 20px;
         padding-right: 20px;
         background-color: rgb(7, 83, 77);
-        background: url(clocks.svg);
-        background-repeat: repeat;
-        background-size: contain;
  
 
         img {
