@@ -1,7 +1,109 @@
+<svelte:head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=pets" />
+</svelte:head>
 <script>
     import Navbar from "$lib/navbar.svelte"
     import Banner from "$lib/banner.svelte"
-</script>
+    import Footer from "$lib/footer.svelte"
 
+</script>
+<style>
+    #main {
+        background-color: rgb(160, 127, 17);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #coin {
+        margin: 0 auto;
+        width: 30%;
+    }
+    @media (min-width: 750px) {
+        #coin {
+            width: 10%;
+        }
+    }
+    .rank {
+        background-color: rgb(92, 47, 10);
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    @media (min-width: 750px) {
+        .rank {
+            margin-left: 30%;
+            margin-right: 30%;
+
+            h3 {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+    }
+    @media (max-width: 750px) {
+        h1 {
+            font-size: 50px;
+        }
+    }
+
+    a {
+        color: white;
+    }
+</style>
 <Navbar />
 <Banner />
+<div id="main">
+    <h2 style="font-size: 40px;">How to earn Mynts</h2>
+    <br>
+    <img src="mynt.png" alt="Mynt Coin" id="coin"/>
+    <br><br>
+    <h3>In a nutshell, mynts are the currency you earn for your animals in the zoo. The better your submissions are, the more mynts you earn.</h3>
+    <h3>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned (1 MYN = 1 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need</h3>
+    <br><br><h4>(DISCLAIMER: Finalized amounts per accomplishment/task will be finalized closer to the commencement of this YSWS)</h4>
+    <br><br><br>
+    <div class="rank" >
+        <h3>You can earn</h3>
+        <h1>15 MYN</h1>
+        <h3>for</h3>
+        <br>
+        <h2>Following the base project requirements</h2>
+        <br>
+    </div>
+    <h3>------------</h3><br><br>
+    <div class="rank">
+        <h3>You can earn</h3>
+        <h1>3 MYN</h1>
+        <h3>for</h3>
+        <br>
+        <h2>Each additional hour you spend beyond the base requirement of 5</h2>
+        <br>
+    </div>
+    <div class="rank">
+        <h3>You can earn</h3>
+        <h1>3 MYN</h1>
+        <h3>for</h3>
+        <br>
+        <h2>Making your project about an endangered animal or species</h2>
+        <br>
+    </div>
+    <div class="rank">
+        <h3>You can earn</h3>
+        <h1>4 MYN</h1>
+        <h3>for</h3>
+        <br>
+        <h2>Implementing an easter egg, random chance rare event, etc.</h2>
+        <br>
+    </div>
+    <div class="rank">
+        <h3>You can earn</h3>
+        <h1>4 MYN</h1>
+        <h3>for</h3>
+        <br>
+        <h2>Each additional interactive feature you add to your interactive page</h2>
+        <br>
+    </div>
+</div>
+<Footer />

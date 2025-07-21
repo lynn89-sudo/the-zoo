@@ -227,6 +227,10 @@
 
             button {
                 background-color: rgb(48, 41, 1);
+
+                span {
+                    vertical-align: -0.11em;
+                }
             }
             button:hover {
                 background-color: rgb(131, 111, 1);
@@ -291,11 +295,13 @@
     <img src="whale.png" alt="Whale Plushie"/>
 </div>
 <div id="example">
-    <h2>Can I see an example project?</h2>
-    <h3>Yes! This is a mid/high level project example.</h3>
+    <h2>What exactly do I need to include? Can I see an example project?</h2>
+    <br><br>
+    <h3>This is a mid/high level project example.</h3>
     <button onclick = { window.location.href = "https://lynn89-sudo.github.io/red-panda" }><h2>Take me there!</h2></button>
     <br><br>
-    <h3>Future guide coming soon...</h3>
+    <h3>Also make sure to check out the project requirements</h3>
+    <h4><em>Coming soon...</em></h4>
     <br>
     <img src="pig.png" alt = "pig plushie"/>
 </div>
@@ -329,6 +335,18 @@
         <button onclick = { faq = 4 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
         <h3 class:on = { faq == 4 }>Yes (hopefully)! Those that submit polished (and I mean polished) projects on an endangered species/animal and include a special page about that in their project will be eligible for a special sticker. One sticker per person, not project. You can see an example of this in the example project above.</h3>
+    </div>
+    <div>
+        <h2>How many mynts do I need to buy a plushie and how do I use them?</h2>
+        <button onclick = { faq = 5 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <br><br>
+        <h3 class:on = { faq == 5 }>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned (1 MYN = 1 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need!</h3>
+    </div>
+    <div>
+        <h2>Can I use Artificial Intelligence to assist me with my project?</h2>
+        <button onclick = { faq = 6 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <br><br>
+        <h3 class:on = { faq == 6 }>Yesnt... You can use AI to help you debug code, however all creative ideas must be original and you cannot copy/paste any AI generated code into your project. If you use any AI, you MUST declare it on your submission form.</h3>
     </div>
 </div>
 <Footer />
