@@ -1,4 +1,5 @@
 <script>
+    window.location.href = "/";
     import Navbar from "$lib/navbar.svelte"
     let aboutLabel = $state("");
     let mode = $state("");
