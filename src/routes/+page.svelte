@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_drop_down_circle,pets" />
 </svelte:head>
 <script>
-    import { base } from '$app/paths';
     import Navbar from "$lib/navbar.svelte"
     import Banner from "$lib/banner.svelte"
     import Footer from "$lib/footer.svelte"
