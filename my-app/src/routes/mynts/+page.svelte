@@ -9,7 +9,7 @@
 </script>
 <style>
     #main {
-        background-color: rgb(160, 127, 17);
+        background-color: rgb(146, 109, 6);
         padding-top: 50px;
         padding-bottom: 50px;
         padding-left: 20px;
@@ -25,12 +25,15 @@
         }
     }
     .rank {
-        background-color: rgb(92, 47, 10);
+        background-color: rgb(90, 74, 1);
         margin-left: 50px;
         margin-right: 50px;
         margin-bottom: 30px;
         padding: 20px;
         border-radius: 20px;
+    }
+    .rank h2 {
+        font-size: 15px;
     }
     @media (min-width: 750px) {
         .rank {
@@ -62,14 +65,14 @@
     <br><br>
     <h3>In a nutshell, mynts are the currency you earn for your animals in the zoo. The better your submissions are, the more mynts you earn.</h3>
     <h3>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned (1 MYN = 1 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need</h3>
-    <br><br><h4>(DISCLAIMER: Finalized amounts per accomplishment/task will be finalized closer to the commencement of this YSWS)</h4>
+    <br><br><h4>(DISCLAIMER: Mynt payments per accomplishment/task will be finalized closer to the commencement of this YSWS)</h4>
     <br><br><br>
     <div class="rank" >
         <h3>You can earn</h3>
         <h1>15 MYN</h1>
         <h3>for</h3>
         <br>
-        <h2>Following the base project requirements</h2>
+        <h2>Following the minimum <a href="/">project requirements</a></h2>
         <br>
     </div>
     <h3>------------</h3><br><br>
@@ -78,7 +81,7 @@
         <h1>3 MYN</h1>
         <h3>for</h3>
         <br>
-        <h2>Each additional hour you spend beyond the base requirement of 5</h2>
+        <h2>Each additional hour you spend beyond the base requirement of 5 (not beyond 10 hours)</h2>
         <br>
     </div>
     <div class="rank">
@@ -87,6 +90,14 @@
         <h3>for</h3>
         <br>
         <h2>Making your project about an endangered animal or species</h2>
+        <br>
+    </div>
+    <div class="rank">
+        <h3>You can earn</h3>
+        <h1>4 MYN</h1>
+        <h3>for</h3>
+        <br>
+        <h2>Including <em>$effect</em> runes on both your main and interactive page (they must have an individual unique purpose)</h2>
         <br>
     </div>
     <div class="rank">
@@ -103,6 +114,22 @@
         <h3>for</h3>
         <br>
         <h2>Each additional interactive feature you add to your interactive page</h2>
+        <br>
+    </div>
+    <div class="rank">
+        <h3>You can earn</h3>
+        <h1>5 MYN</h1>
+        <h3>for</h3>
+        <br>
+        <h2>Making your project responsive (must work on mobile)</h2>
+        <br>
+    </div>
+    <div class="rank">
+        <h3>You can earn</h3>
+        <h1>10 MYN</h1>
+        <h3>for</h3>
+        <br>
+        <h2>Blowing our socks off with how impressive your project is (this is more selective than the Ivy League... so get grinding if you want a shot at this)</h2>
         <br>
     </div>
 </div>

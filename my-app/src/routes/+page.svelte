@@ -177,7 +177,7 @@
             width: 20%;
         }
         #example img:hover {
-            width: 25%;
+            width: 23%;
         }
     }
 
@@ -249,7 +249,7 @@
             width: 20%;
         }
         #faq img:hover {
-            width: 25%;
+            width: 23%;
         }
     }
 </style>
@@ -322,7 +322,7 @@
         <h2>How many projects can I submit?</h2>
         <button onclick = { faq = 2 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
-        <h3 class:on = { faq == 2 }>You can submit as many projects as you want to The Zoo, but you cannot submit another project till your previous project meets all the requirements, is shipped, and has 7+ hours (yes, at least 2 more than the minimum). Your new project must also have more features compared to the first and demonstrate improved skill (we mean this, and we will check).</h3>
+        <h3 class:on = { faq == 2 }>You can submit 2 projects max to The Zoo, but you cannot submit your 2nd project till your first project meets all the requirements, is shipped, and has 7+ hours (yes, at least 2 more than the minimum). Your 2nd project must also have more features compared to the first and demonstrate improved skill (we mean this, and we will check).</h3>
     </div>
     <div>
         <h2>Are there limitations to what I can put on my site?</h2>
@@ -347,6 +347,12 @@
         <button onclick = { faq = 6 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
         <h3 class:on = { faq == 6 }>Yesnt... You can use AI to help you debug code, however all creative ideas must be original and you cannot copy/paste any AI generated code into your project. If you use any AI, you MUST declare it on your submission form.</h3>
+    </div>
+    <div>
+        <h2>What if I have other questions?</h2>
+        <button onclick = { faq = 7 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <br><br>
+        <h3 class:on = { faq == 7 }>Hop onto <em>#the-zoo</em> channel in the Hack Club Slack if you have additional questions, or just want to vibe!</h3>
     </div>
 </div>
 <Footer />

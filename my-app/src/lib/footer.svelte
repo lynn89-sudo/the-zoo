@@ -10,7 +10,7 @@
             margin-bottom: 10px;
         }
         button:hover {
-            background-color: darkgreen;
+            background-color: rgb(146, 23, 23);
         }
         span {
             margin-top: 10px;
