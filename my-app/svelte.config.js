@@ -7,7 +7,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: "lynn89-sudo.github.io/the-zoo/"
+			base: "/the-zoo"
 		}
 	}
 };

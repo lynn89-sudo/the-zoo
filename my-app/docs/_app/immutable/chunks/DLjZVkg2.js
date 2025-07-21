@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import"./CVr_m4us.js";import{r,a as i,u as t}from"./DHYNwcoz.js";var d=r('<div id="navbar"><a href="/"><img id="logo" src="logo.png" alt="Logo"/></a></div> <div id="spacing"></div>',1);function v(a){var o=d();t(2),i(a,o)}export{v as N};
