@@ -15,6 +15,10 @@
         background-color: rgb(68, 54, 7);
         padding: 30px;
         border-radius: 360px;
+
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
     }
     h1 {
         font-size: 40px;

@@ -308,7 +308,7 @@
 <div id="faq">
     <h1><span>FAQ</span></h1>
     <br>
-    <h3>If it helped Ollie, it should help you too ^w^</h3>
+    <h3>If it helped Oscar, it should help you too ^w^</h3>
     <br>
     <img src="octo.png" alt="ollie the octopus"/>
     <br><br>
@@ -353,6 +353,12 @@
         <button onclick = { faq = 4 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
         <h3 class:on = { faq == 4 }>Yes (hopefully)! Those that submit polished (and I mean polished) projects on an endangered species/animal and include a special page about that in their project will be eligible for a special sticker. One sticker per person, not project. You can see an example of this in the example project above.</h3>
+    </div>
+    <div>
+        <h2>Blahaj...?</h2>
+        <button onclick = { faq = 9 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <br><br>
+        <h3 class:on = { faq == 9  }>Yes, Blahaj ^w^</h3>
     </div>
     <div>
         <h2>What if I have other questions?</h2>
