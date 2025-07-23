@@ -72,7 +72,7 @@
         <h1>15 MYN</h1>
         <h3>for</h3>
         <br>
-        <h2>Following the minimum project requirements <em>(coming soon...)</em></h2>
+        <h2>Following the minimum <a href="/the-zoo/requirements">project requirements</a></h2>
         <br>
     </div>
     <h3>------------</h3><br><br>
