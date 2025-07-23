@@ -297,12 +297,12 @@
 <div id="example">
     <h2>What exactly do I need to include? Can I see an example project?</h2>
     <br><br>
+    <h3>View the project requirements here</h3>
+    <button onclick = { window.location.href = "/the-zoo/requirements" }><h2>View Requirements</h2></button>
+    <br><br>
     <h3>This is a mid/high level project example.</h3>
     <button onclick = { window.location.href = "https://lynn89-sudo.github.io/red-panda" }><h2>Take me there!</h2></button>
-    <br><br>
-    <h3>Also make sure to check out the project requirements</h3>
-    <h4><em>Coming soon...</em></h4>
-    <br>
+    <br><br><br><br>
     <img src="pig.png" alt = "pig plushie"/>
 </div>
 <div id="faq">
