@@ -343,18 +343,6 @@
         <h3 class:on = { faq == 2 }>You can submit 2 projects max to The Zoo, but you cannot submit your 2nd project till your first project meets all the requirements, is shipped, and has 7+ hours (yes, at least 2 more than the minimum). Your 2nd project must also have more features compared to the first and demonstrate improved skill (we mean this, and we will check).</h3>
     </div>
     <div>
-        <h2>Are there limitations to what I can put on my site?</h2>
-        <button onclick = { faq = 3 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
-        <br><br>
-        <h3 class:on = { faq == 3 }>For the most part, no! Any animal, real or imaginary, is valid for your project. No vulgar or innapropriate content is allowed in a submission; additionally, no depictions of any figure/person are allowed without their explicit permision. Follow the Hack Club Code of Conduct peeps.</h3>
-    </div>
-    <div>
-        <h2>Are there special prizes?</h2>
-        <button onclick = { faq = 4 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
-        <br><br>
-        <h3 class:on = { faq == 4 }>Yes (hopefully)! Those that submit polished (and I mean polished) projects on an endangered species/animal and include a special page about that in their project will be eligible for a special sticker. One sticker per person, not project. You can see an example of this in the example project above.</h3>
-    </div>
-    <div>
         <h2>Blahaj...?</h2>
         <button onclick = { faq = 9 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
