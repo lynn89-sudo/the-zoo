@@ -66,11 +66,6 @@
         <h3>Your site should be static, and hosted on a service such as Github Pages.</h3>
     </div>
     <div class="rule">
-        <h2>SvelteKit and Static</h2>
-        <h3>You should use Svelte/SvelteKit to make your app (this is a given). Documentation can be found <a href="https://svelte.dev">here</a>.</h3>
-        <h3>Your site should be static, and hosted on a service such as Github Pages.</h3>
-    </div>
-    <div class="rule">
         <h2>Themed around Animals</h2>
         <h3>This is also a given. Your site must be themed around an animal, real or imaginary. No vulgar, violent or distressing content is allowed and no specific people can be incorporated without their explicit permission.</h3>
     </div>
