@@ -303,7 +303,7 @@
     <h3>This is a mid/high level project example.</h3>
     <button onclick = { window.location.href = "https://lynn89-sudo.github.io/red-panda" }><h2>Take me there!</h2></button>
     <br><br><br><br>
-    <img src="pig.png" alt = "pig plushie"/>
+    <img src="pig.png" alt = "Pig Plushie"/>
 </div>
 <div id="faq">
     <h1><span>FAQ</span></h1>
@@ -320,33 +320,33 @@
     </div>
     <div>
         <h2>How many mynts do I need to buy a plushie and how do I use them?</h2>
-        <button onclick = { faq = 5 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <button onclick = { faq = 2 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
-        <h3 class:on = { faq == 5 }>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned (1 MYN = 1 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need!</h3>
+        <h3 class:on = { faq == 2 }>Throughout the duration of the YSWS, your mynts are added up. By the end, after everything is finalized, you will get an <a href="https://hcb.hackclub.com">HCB</a> grant equivalent to the amount of mynts you earned (1 MYN = 1 USD). Whatever your choice of plushie costs + delivery fees (or just pick it up for less) is the amount of mynts you will need!</h3>
+    </div>
+    <div>
+        <h2>What if I live in a region or country without an Ikea?</h2>
+        <button onclick = { faq = 3 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <br><br>
+        <h3 class:on = { faq == 3  }>In the case that you cannot purchase from Ikea due to unviability, you can declare this on your submission form and use your mynts towards services such as Amazon or Shopee instead. No small/local stores though, must be an official service. View <a href="/the-zoo/alternative">this page</a> for more information.</h3>
     </div>
     <div>
         <h2>Can I use Artificial Intelligence to assist me with my project?</h2>
-        <button onclick = { faq = 6 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <button onclick = { faq = 4 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
-        <h3 class:on = { faq == 6 }>Yesnt... You can use AI to help you debug code, however all creative ideas must be original and you cannot copy/paste any AI generated code into your project. If you use any AI, you MUST declare it on your submission form.</h3>
+        <h3 class:on = { faq == 4 }>Yesnt... You can use AI to help you debug code, however all creative ideas must be original and you cannot copy/paste any AI generated code into your project. If you use any AI, you MUST declare it on your submission form.</h3>
     </div>
     <div>
         <h2>How old must I be to participate?</h2>
-        <button onclick = { faq = 8 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <button onclick = { faq = 5 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
-        <h3 class:on = { faq == 8 }>You must be in Middle School or High School to participate.</h3>
+        <h3 class:on = { faq == 5 }>You must be in Middle School or High School to participate.</h3>
     </div>
     <div>
         <h2>How many projects can I submit?</h2>
-        <button onclick = { faq = 2 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
+        <button onclick = { faq = 6 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
         <br><br>
-        <h3 class:on = { faq == 2 }>You can submit 2 projects max to The Zoo, but you cannot submit your 2nd project till your first project meets all the requirements, is shipped, and has 7+ hours (yes, at least 2 more than the minimum). Your 2nd project must also have more features compared to the first and demonstrate improved skill (we mean this, and we will check).</h3>
-    </div>
-    <div>
-        <h2>Blahaj...?</h2>
-        <button onclick = { faq = 9 }><span class="material-symbols-outlined">arrow_drop_down_circle</span></button>
-        <br><br>
-        <h3 class:on = { faq == 9  }>Yes, Blahaj ^w^</h3>
+        <h3 class:on = { faq == 6 }>You can submit 2 projects max to The Zoo, but you cannot submit your 2nd project till your first project meets all the requirements, is shipped, and has 7+ hours (yes, at least 2 more than the minimum). Your 2nd project must also have more features compared to the first and demonstrate improved skill (we mean this, and we will check).</h3>
     </div>
     <div>
         <h2>What if I have other questions?</h2>

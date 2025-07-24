@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import"./D5mRRwKZ.js";import{u as i,a as e,x as s}from"./BooE-Rju.js";var t=i('<div id="navbar" class="svelte-1lo2epw"><a href="/the-zoo/"><img id="logo" src="logo.png" alt="Logo" class="svelte-1lo2epw"/></a></div> <div id="linkto"></div> <div id="spacing" class="svelte-1lo2epw"></div>',1);function d(o){var a=t();s(4),e(o,a)}export{d as N};

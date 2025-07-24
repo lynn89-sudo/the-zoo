@@ -2,14 +2,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=pets" />
 </svelte:head>
 <script>
-    import Navbar from "$lib/navbar.svelte"
-    import Banner from "$lib/banner.svelte"
-    import Footer from "$lib/footer.svelte"
+    import Navbar from "$lib/navbar.svelte";
+    import Banner from "$lib/banner.svelte";
+    import Footer from "$lib/footer.svelte";
 
 </script>
 <style>
     #main {
-        background-color: rgb(146, 109, 6);
+        background-color: rgb(170, 144, 72);
         padding-top: 50px;
         padding-bottom: 50px;
         padding-left: 20px;
@@ -78,7 +78,7 @@
     <h3>------------</h3><br><br>
     <div class="rank">
         <h3>You can earn</h3>
-        <h1>3 MYN</h1>
+        <h1>2 MYN</h1>
         <h3>for</h3>
         <br>
         <h2>Each additional hour you spend beyond the base requirement of 5 (not beyond 10 hours)</h2>
@@ -94,7 +94,7 @@
     </div>
     <div class="rank">
         <h3>You can earn</h3>
-        <h1>4 MYN</h1>
+        <h1>3 MYN</h1>
         <h3>for</h3>
         <br>
         <h2>Including <em>$effect</em> runes on both your main and interactive page (they must have an individual unique purpose)</h2>
@@ -102,7 +102,7 @@
     </div>
     <div class="rank">
         <h3>You can earn</h3>
-        <h1>4 MYN</h1>
+        <h1>3 MYN</h1>
         <h3>for</h3>
         <br>
         <h2>Implementing an easter egg, random chance rare event, etc.</h2>
@@ -110,7 +110,7 @@
     </div>
     <div class="rank">
         <h3>You can earn</h3>
-        <h1>4 MYN</h1>
+        <h1>3 MYN</h1>
         <h3>for</h3>
         <br>
         <h2>Each additional interactive feature you add to your interactive page</h2>
@@ -118,7 +118,7 @@
     </div>
     <div class="rank">
         <h3>You can earn</h3>
-        <h1>5 MYN</h1>
+        <h1>4 MYN</h1>
         <h3>for</h3>
         <br>
         <h2>Making your project responsive (must work on mobile)</h2>
@@ -126,7 +126,7 @@
     </div>
     <div class="rank">
         <h3>You can earn</h3>
-        <h1>10 MYN</h1>
+        <h1>8 MYN</h1>
         <h3>for</h3>
         <br>
         <h2>Blowing our socks off with how impressive your project is (this is more selective than the Ivy League... so get grinding if you want a shot at this)</h2>
