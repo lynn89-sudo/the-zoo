@@ -93,6 +93,7 @@
     <a href= "/the-zoo/"><img id = "logo" src="logo.png" alt="Logo"/></a>
     <button class="navbutton" onclick = { window.location.href = "/the-zoo/mynts" }>MYNTS</button>
     <button class="navbutton" onclick = { window.location.href = "/the-zoo/requirements" }>REQUIREMENTS</button>
-    <button class="navbutton" onclick = { window.location.href = "/the-zoo/alternative" }>INTERNATIONAL SHIPPING</button>
+    <button class="navbutton" onclick = { window.location.href = "/the-zoo/alternative" }>INTERNATIONAL PARTICIPANTS</button>
+    <button class="navbutton" onclick = { window.location.href = "/the-zoo/guide" }>GUIDE</button>
 </div>
 <div id="spacing"></div>
