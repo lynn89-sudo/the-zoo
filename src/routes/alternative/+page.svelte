@@ -8,11 +8,11 @@
 </script>
 <style>
     #body {
-        background-color: rgb(69, 107, 150);
+        background-color: rgb(44, 59, 77);
         padding: 40px;
     }
     .content {
-        background-color: rgb(45, 47, 148);
+        background-color: rgb(62, 63, 133);
         padding: 20px;
         margin-bottom: 20px;
         border-radius: 50px;
@@ -56,7 +56,7 @@
     <h3>Ikea is amazing <em>(if you've never been to one, put it on your bucket list)</em>; however, not everyone has access to one. Maybe you live in a country that doesn't have one or you live out of range for delivery. Don't worry, we still got you covered!</h3>
     <h3>If you live in a country/region where delivery is either very expensive (must be unreasonable pricing) or just not available, you are eligible to use your mynts towards buying plushies on another shipping service.</h3>
     <br>
-    <img id="globe" src="mynt.png" alt="globe plushie"/>
+    <img id="globe" src="monde.png" alt="globe plushie"/>
     <br><br>
     <div class="content">
         <h2>Approved 3rd Party Services</h2><br>
