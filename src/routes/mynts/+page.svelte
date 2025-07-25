@@ -9,7 +9,7 @@
 </script>
 <style>
     #main {
-        background-color: rgb(170, 144, 72);
+        background-color: rgb(82, 65, 29);
         padding-top: 50px;
         padding-bottom: 50px;
         padding-left: 20px;
@@ -25,7 +25,7 @@
         }
     }
     .rank {
-        background-color: rgb(90, 74, 1);
+        background-color: rgb(158, 132, 16);
         margin-left: 50px;
         margin-right: 50px;
         margin-bottom: 30px;
